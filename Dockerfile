@@ -18,6 +18,7 @@ RUN apk -U upgrade && \
         gcc \
         g++ \
         python-dev \
+        openssl \
         openssl-dev \
         libffi-dev \
         unrar \
