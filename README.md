@@ -22,6 +22,6 @@ To edit the autoProcess.ini file, download the file make your changes and do a d
 docker cp <location of autoProcess.ini> <docker containername>:/scripts/sickbeard_mp4_automator/
 ```
 
-## todo
+## Todo
 - move the script to the config dir for easy editing the autoProcess file
 - cleanup Dockerfile
