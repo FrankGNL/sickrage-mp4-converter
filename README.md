@@ -17,11 +17,7 @@ Then in the sickbeard config. Go to Post Processing settings > Extra Scripts:
 ```
 
 ## Customisation
-To edit the autoProcess.ini file, download the file make your changes and do a docker cp:
-```
-docker cp <location of autoProcess.ini> <docker containername>:/scripts/sickbeard_mp4_automator/
-```
+To edit the autoProcess.ini file, go to your <config location>/scripts/sickbeard_mp4_automator on your host and edit the autoProcess.ini
 
 ## Todo
-- move the script to the config dir for easy editing the autoProcess file
 - cleanup Dockerfile
