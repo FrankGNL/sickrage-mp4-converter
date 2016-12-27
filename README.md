@@ -5,7 +5,7 @@
 This Docker image is a merge between [Timhaak his Sickbeard image](https://hub.docker.com/r/timhaak/sickrage/) and a script to convert video files to mp4/m4v format [sickbeard_mp4_automator](https://github.com/mdhiggins/sickbeard_mp4_automator/)
 
 To run the container:<br>
-```docker run --restart=always -d -v <config location>:/config -v <video location>:/data -p 8081:8081 sickrage```
+```docker run --restart=always -d -v <config location>:/config -v <video location>:/data -p 8081:8081 frankgnl/sickrage-mp4-converter```
 
 Then in the sickbeard config. Go to Post Processing settings > Extra Scripts:<br>
 ```/usr/bin/python /scripts/sickbeard_mp4_automator/postConversion.py```
