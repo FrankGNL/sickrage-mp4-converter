@@ -32,6 +32,8 @@ RUN wget -q https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-64bit-stati
 RUN mkdir -p /scripts \
     && git clone https://github.com/mdhiggins/sickbeard_mp4_automator.git /scripts/sickbeard_mp4_automator
 
+COPY autoProcess.ini /scripts/sickbeard_mp4_automator/
+
 VOLUME ["/config", "/data", "/cache"]
 
 EXPOSE 8081
