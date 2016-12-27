@@ -13,7 +13,6 @@ RUN apk -U upgrade && \
         ca-certificates \
         openssl \
         git \
-        bash \
         python \
         py-libxml2 \
         py-lxml \
