@@ -8,10 +8,8 @@ ENV LANG='en_US.UTF-8' \
 # OS update & package installation
 RUN apk -U upgrade && \
     apk -U add \
-        ca-certificates \
         py2-pip \
         ca-certificates \
-        openssl \
         git \
         python \
         py-libxml2 \
