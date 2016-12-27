@@ -1,4 +1,4 @@
-[![Docker Stars](https://img.shields.io/docker/stars/_/ubuntu.svg)]()
+[![Docker Stars](https://img.shields.io/docker/stars/_/ubuntu.svg)](https://hub.docker.com/r/frankgnl/sickrage-mp4-converter/)
 [![](https://images.microbadger.com/badges/image/frankgnl/sickrage-mp4-converter.svg)](https://microbadger.com/images/frankgnl/sickrage-mp4-converter "Get your own image badge on microbadger.com")
 [![Build Status](https://travis-ci.org/FrankGNL/sickrage-mp4-converter.svg?branch=master)](https://travis-ci.org/FrankGNL/sickrage-mp4-converter)
 
