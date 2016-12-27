@@ -63,7 +63,6 @@ RUN wget -q https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-64bit-stati
 
 # clone mp4 automator
 RUN git clone --depth 1 https://github.com/mdhiggins/sickbeard_mp4_automator.git
-COPY autoProcess.ini .
 
 WORKDIR /config
 
