@@ -13,7 +13,7 @@ docker run --restart=always -d -v <config location>:/config -v <video location>:
 
 Then in the sickbeard config. Go to Post Processing settings > Extra Scripts:
 ```
-/usr/bin/python /scripts/sickbeard_mp4_automator/postConversion.py
+/usr/bin/python /config/scripts/sickbeard_mp4_automator/postConversion.py
 ```
 
 ## Customisation
