@@ -3,7 +3,7 @@
 mkdir -p /config/scripts
 
 mv -n /tmp/sickbeard_mp4_automator /config/scripts/
-mv -n /config/scripts/sickbeard_mp4_automator/autoProcess.ini.sample /config/scripts/sickbeard_mp4_automator/autoProcess.ini
+cp /config/scripts/sickbeard_mp4_automator/autoProcess.ini.sample /config/scripts/sickbeard_mp4_automator/autoProcess.ini
 
 mkdir -p /config/cache
 
