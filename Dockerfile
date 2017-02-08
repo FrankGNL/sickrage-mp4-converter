@@ -41,6 +41,8 @@ RUN pip install --upgrade pip && \
         qtfaststart \
         requirements
 
+RUN cp /usr/share/zoneinfo/Europe/Amsterdam /etc/localtime
+
 # clone Sickrage
 RUN git clone --depth 1 https://github.com/SickRage/SickRage.git /sickrage && \
     apk del make gcc g++ python-dev && \
