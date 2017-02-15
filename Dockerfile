@@ -35,7 +35,7 @@ RUN pip install --upgrade pip && \
         babelfish \
         "guessit<2" \
         "subliminal<2" \
-        stevedore \
+        stevedore==1.19.1 \
         python-dateutil \
         deluge-client \
         qtfaststart \
