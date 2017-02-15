@@ -38,6 +38,7 @@ RUN pip install --upgrade pip && \
         stevedore \
         python-dateutil \
         deluge-client \
+        guessit \
         qtfaststart \
         requirements
 
